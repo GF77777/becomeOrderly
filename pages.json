@@ -1,0 +1,61 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详细"
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/event-detail/event-detail",
+			"style": {
+				"navigationBarTitleText": "事件详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "成为有序",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#4CAF50",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath":"static/table/首页.png",
+				"selectedIconPath": "static/table/首页1.png"
+			},
+			{
+				"pagePath": "pages/detail/detail",
+				"text": "详细",
+				"iconPath": "static/table/详细.png",
+				"selectedIconPath": "static/table/详细1.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "我的",
+				"iconPath": "static/table/我的.png",
+				"selectedIconPath": "/static/table/我的1.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
