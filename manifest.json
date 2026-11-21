@@ -65,6 +65,12 @@
     "mp-toutiao" : {
         "usingComponents" : true
     },
+    "h5" : {
+        "router" : {
+            "mode" : "hash",
+            "base" : "/becomeOrderly/"
+        }
+    },
     "uniStatistics" : {
         "enable" : false
     },

@@ -8,7 +8,7 @@ export const QUADRANTS = [
 		detailLabel: 'I：重要且紧急', // detail 页 section 标题
 		label: '重要紧急', // event-detail 页短标签
 		color: '#F44336',
-		icons: { active: '/static/index/紧急1.png', done: '/static/index/紧急.png' },
+		icons: { active: 'static/index/紧急1.png', done: 'static/index/紧急.png' },
 		gridClass: 'top-right',
 		importance: 'important',
 		urgency: 'urgent'
@@ -19,7 +19,7 @@ export const QUADRANTS = [
 		detailLabel: 'II：重要但不紧急',
 		label: '重要不紧急',
 		color: '#FF9800',
-		icons: { active: '/static/index/计划1.png', done: '/static/index/计划.png' },
+		icons: { active: 'static/index/计划1.png', done: 'static/index/计划.png' },
 		gridClass: 'top-left',
 		importance: 'important',
 		urgency: 'notUrgent'
@@ -30,7 +30,7 @@ export const QUADRANTS = [
 		detailLabel: 'III：不重要但紧急',
 		label: '不重要紧急',
 		color: '#2196F3',
-		icons: { active: '/static/index/干扰1.png', done: '/static/index/干扰.png' },
+		icons: { active: 'static/index/干扰1.png', done: 'static/index/干扰.png' },
 		gridClass: 'bottom-right',
 		importance: 'notImportant',
 		urgency: 'urgent'
@@ -41,7 +41,7 @@ export const QUADRANTS = [
 		detailLabel: 'IV：不重要不紧急',
 		label: '不重要不紧急',
 		color: '#9E9E9E',
-		icons: { active: '/static/index/娱乐1.png', done: '/static/index/娱乐.png' },
+		icons: { active: 'static/index/娱乐1.png', done: 'static/index/娱乐.png' },
 		gridClass: 'bottom-left',
 		importance: 'notImportant',
 		urgency: 'notUrgent'

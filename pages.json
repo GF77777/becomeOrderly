@@ -53,7 +53,7 @@
 				"pagePath": "pages/personal/personal",
 				"text": "我的",
 				"iconPath": "static/table/我的.png",
-				"selectedIconPath": "/static/table/我的1.png"
+				"selectedIconPath": "static/table/我的1.png"
 			}
 		]
 	},

@@ -180,10 +180,10 @@ const statistics = computed(() => store.stats)
 
 // 象限统计项：图标与 index 页一致（Ⅱ计划、Ⅲ干扰、Ⅳ娱乐），colorClass 沿用原值
 const QUADRANT_ITEM_META = [
-	{ symbol: 'Ⅰ', colorClass: 'red', icon: '/static/index/紧急1.png' },
-	{ symbol: 'Ⅱ', colorClass: 'green', icon: '/static/index/计划.png' },
-	{ symbol: 'Ⅲ', colorClass: 'blue', icon: '/static/index/干扰1.png' },
-	{ symbol: 'Ⅳ', colorClass: 'gray', icon: '/static/index/娱乐.png' }
+	{ symbol: 'Ⅰ', colorClass: 'red', icon: 'static/index/紧急1.png' },
+	{ symbol: 'Ⅱ', colorClass: 'green', icon: 'static/index/计划.png' },
+	{ symbol: 'Ⅲ', colorClass: 'blue', icon: 'static/index/干扰1.png' },
+	{ symbol: 'Ⅳ', colorClass: 'gray', icon: 'static/index/娱乐.png' }
 ]
 const quadrantItems = computed(() =>
 	QUADRANTS.map((q, i) => ({
